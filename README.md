@@ -1,7 +1,5 @@
 # cmus-discord-rpc
 
-[![travis-ci Build Status][travis-ci-badge]][travis-ci-page] [![Discord][discord-badge]][discord-invite]
-
 Discord Rich Presence integration for the C* Music Player (`cmus`).
 
 ## Installing
