@@ -65,7 +65,7 @@ fn main() {
                 }
             }
             else {
-                ac = ac.state(title.unwrap().to_owned() +  " - " + artist.unwrap());
+                ac = ac.state(title.unwrap().to_owned() +  " by " + artist.unwrap());
             }
 
             if status == Status::Playing {
