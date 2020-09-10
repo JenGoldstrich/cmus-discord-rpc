@@ -1,4 +1,4 @@
-# cmus-discord-rpc
+# cmus-discord-rpc - forked from github.com/Bond-009
 
 Discord Rich Presence integration for the C* Music Player (`cmus`).
 
