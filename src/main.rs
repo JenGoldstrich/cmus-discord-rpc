@@ -65,7 +65,7 @@ fn main() {
                 }
             }
             else {
-                ac = ac.state(artist.unwrap().to_owned() + " - " + title.unwrap());
+                ac = ac.state(title.unwrap().to_owned() +  " - " + artist.unwrap());
             }
 
             if status == Status::Playing {
@@ -78,7 +78,7 @@ fn main() {
 
         drpc.set_activity(|_| ac).expect("Failed to set presence");
 
-        thread::sleep(Duration::from_secs(15));
+        thread::sleep(Duration::from_secs(3));
     }
 }
 
