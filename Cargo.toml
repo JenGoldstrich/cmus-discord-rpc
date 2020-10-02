@@ -1,9 +1,9 @@
 [package]
 name = "cmus-discord-rpc"
 version = "0.2.0"
-authors = ["Bond_009 <bond.009@outlook.com>"]
+authors = ["JenGoldstrich <jenna.goldstrich2@gmail.com>"]
 keywords = ["discord", "rpc", "cmus"]
-repository = "https://github.com/Bond-009/cmus-discord-rpc"
+repository = "https://github.com/JenGoldstrich/cmus-discord-rpc"
 edition = "2018"
 
 [profile.release]
